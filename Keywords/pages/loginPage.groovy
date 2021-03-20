@@ -49,7 +49,7 @@ class loginPage {
 	public loginPage(){
 		WebUI.waitForElementVisible(loginButton, GlobalVariable.shortTimeOut)
 	}
-	
+
 	@Keyword
 	def loginUser(String userName, String password) {
 		enterUserName(userName)
@@ -68,11 +68,10 @@ class loginPage {
 		WebUI.waitForElementVisible(forgotPassword, GlobalVariable.shortTimeOut)
 		WebUI.click(forgotPassword)
 	}
-	
+
 	@Keyword
 	def userNameExist() {
 		return WebUI.verifyElementVisible(userName)
-		
 	}
 
 	def enterUserName(String user) {
