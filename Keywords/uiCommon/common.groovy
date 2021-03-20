@@ -24,7 +24,7 @@ public class common {
 
 	@Keyword
 	def openApp() {
-		WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/index.php/auth/login')
+		WebUI.openBrowser(GlobalVariable.url)
 		WebUI.maximizeWindow()
 		WebUI.waitForPageLoad(10)
 	}
@@ -33,6 +33,5 @@ public class common {
 	def closeApp() {
 		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
-		
 	}
 }

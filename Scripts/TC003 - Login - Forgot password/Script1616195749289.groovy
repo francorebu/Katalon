@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 
 CustomKeywords.'uiCommon.common.openApp'()
-CustomKeywords.'pages.loginPage.loginUser'('Admin', 'admin123')
-def welcomeText = CustomKeywords.'pages.brandingPage.getWelcomeName'()
-assert welcomeText.contains('Welcome ')
+CustomKeywords.'pages.loginPage.clickOnForgotPassword'()
+def resetExist = CustomKeywords.'pages.resetPasswordPage.resetPassExist'()
+assert resetExist
 CustomKeywords.'uiCommon.common.closeApp'()												
 
 

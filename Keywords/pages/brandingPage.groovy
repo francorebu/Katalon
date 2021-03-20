@@ -26,7 +26,7 @@ public class brandingPage {
 
 	@Keyword
 	def getWelcomeName() {
-		WebUI.waitForPageLoad(10)
+		WebUI.waitForPageLoad(GlobalVariable.shortTimeOut)
 		def message = WebUI.getText(welcomeName)
 		System.out.println("message : " + message)
 		return message
