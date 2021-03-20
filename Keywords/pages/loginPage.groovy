@@ -46,6 +46,10 @@ class loginPage {
 	private errorMessage   = findTestObject('Object Repository/loginPage/invalidCredentials')
 	private forgotPassword = findTestObject('Object Repository/loginPage/forgotPassword')
 
+	public loginPage(){
+		WebUI.waitForElementVisible(loginButton, GlobalVariable.shortTimeOut)
+	}
+	
 	@Keyword
 	def loginUser(String userName, String password) {
 		enterUserName(userName)
@@ -63,6 +67,12 @@ class loginPage {
 	def clickOnForgotPassword() {
 		WebUI.waitForElementVisible(forgotPassword, GlobalVariable.shortTimeOut)
 		WebUI.click(forgotPassword)
+	}
+	
+	@Keyword
+	def userNameExist() {
+		return WebUI.verifyElementVisible(userName)
+		
 	}
 
 	def enterUserName(String user) {
