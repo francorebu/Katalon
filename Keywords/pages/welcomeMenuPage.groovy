@@ -21,20 +21,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class brandingPage {
-	private welcomeName    = findTestObject('Object Repository/brandingPage/welcomeName')
-
-	public brandingPage() {
-		WebUI.waitForElementVisible(welcomeName, GlobalVariable.shortTimeOut)
+public class welcomeMenuPage {
+	
+	private TestObject about  = findTestObject("Object Repository/welcomeMenuPage/about")
+	private TestObject logout = findTestObject("Object Repository/welcomeMenuPage/logout")
+	
+	public welcomeMenuPage() {
+		WebUI.waitForElementVisible(logout, GlobalVariable.shortTimeOut)
 	}
 	
 	@Keyword
-	def getWelcomeName() {
-		return WebUI.getText(welcomeName)
+	def clickOnAbout() {
+		WebUI.click(about)
 	}
 	
 	@Keyword
-	def clickOnWelcome() {
-		WebUI.click(welcomeName)
+	def clickOnLogout() {
+		WebUI.click(logout)
 	}
+	
 }
