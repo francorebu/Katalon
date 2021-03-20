@@ -40,10 +40,11 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 class loginPage {
 
-	private userName     = findTestObject('Object Repository/loginPage/userName')
-	private password     = findTestObject('Object Repository/loginPage/password')
-	private loginButton  = findTestObject('Object Repository/loginPage/loginButton')
-	private errorMessage = findTestObject('Object Repository/loginPage/invalidCredentials')
+	private userName       = findTestObject('Object Repository/loginPage/userName')
+	private password       = findTestObject('Object Repository/loginPage/password')
+	private loginButton    = findTestObject('Object Repository/loginPage/loginButton')
+	private errorMessage   = findTestObject('Object Repository/loginPage/invalidCredentials')
+	private forgotPassword = findTestObject('Object Repository/loginPage/forgotPassword')
 
 	@Keyword
 	def loginUser(String userName, String password) {
@@ -54,8 +55,14 @@ class loginPage {
 
 	@Keyword
 	def getErrorMessage() {
-		WebUI.waitForElementVisible(errorMessage, 10)
+		WebUI.waitForElementVisible(errorMessage, GlobalVariable.shortTimeOut)
 		return WebUI.getText(errorMessage)
+	}
+
+	@Keyword
+	def clickOnForgotPassword() {
+		WebUI.waitForElementVisible(forgotPassword, GlobalVariable.shortTimeOut)
+		WebUI.click(forgotPassword)
 	}
 
 	def enterUserName(String user) {

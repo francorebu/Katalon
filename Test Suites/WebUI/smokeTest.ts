@@ -23,4 +23,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC002 - Login - Invalid credentials</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>13c9402e-bfd4-4d82-9b7d-ba3d83a1c0b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC003 - Login - Forgot password</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
