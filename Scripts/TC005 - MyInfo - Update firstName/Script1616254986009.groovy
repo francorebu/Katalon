@@ -20,7 +20,7 @@ import com.kms.katalon.core.util.KeywordUtil
 
 
 CustomKeywords.'uiCommon.common.openApp'()
-CustomKeywords.'pages.loginPage.loginUser'('Admin', 'admin123')
+CustomKeywords.'pages.loginPage.loginUser'(GlobalVariable.userName, GlobalVariable.password)
 CustomKeywords.'pages.mainMenuPage.clickOnMyInfo'()
 CustomKeywords.'pages.personalDetailsPage.changeFirstName'("Thomas50")
 CustomKeywords.'pages.mainMenuPage.clickOnAdmin'()

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 CustomKeywords.'uiCommon.common.openApp'()
-CustomKeywords.'pages.loginPage.loginUser'('Admin', '123456')
+CustomKeywords.'pages.loginPage.loginUser'(GlobalVariable.userName, '123456')
 def errorMessage = CustomKeywords.'pages.loginPage.getErrorMessage'()
 assert errorMessage.contains('Invalid credentials')
 CustomKeywords.'uiCommon.common.closeApp'() 

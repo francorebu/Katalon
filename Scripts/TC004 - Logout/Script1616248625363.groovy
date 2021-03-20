@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'uiCommon.common.openApp'()
-CustomKeywords.'pages.loginPage.loginUser'('Admin', 'admin123')
+CustomKeywords.'pages.loginPage.loginUser'(GlobalVariable.userName, GlobalVariable.password)
 CustomKeywords.'pages.brandingPage.clickOnWelcome'()
 CustomKeywords.'pages.welcomeMenuPage.clickOnLogout'()
 def elementExist = CustomKeywords.'pages.loginPage.userNameExist'()
