@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>forgotPassword</name>
+   <name>dashboard</name>
    <tag></tag>
-   <elementGuidId>f8406990-bb07-4790-a6ff-3d58d465f6c1</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>61118dd5-3510-4699-907d-2e618dc46121</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//*[contains(@href,'PasswordReset')]</value>
+         <value>//*[contains(@id,'dashboard')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
