@@ -19,12 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 
 CustomKeywords.'uiCommon.common.openApp'()
-CustomKeywords.'pages.loginPage.loginUser'('Admin', 'admin123')
+CustomKeywords.'pages.loginPage.loginUser'(GlobalVariable.userName, GlobalVariable.password)
 def welcomeText = CustomKeywords.'pages.brandingPage.getWelcomeName'()
 assert welcomeText.contains('Welcome ')
-CustomKeywords.'uiCommon.common.closeApp'()												
-
-
-
-
+CustomKeywords.'uiCommon.common.closeApp'()										
 
