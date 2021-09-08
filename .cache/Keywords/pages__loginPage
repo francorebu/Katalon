@@ -1,0 +1,58 @@
+{
+  "keywordFileContentHash": "868C7B15FCC924A24C2B16281306D1E5",
+  "keywordClasses": [
+    {
+      "name": "pages.loginPage",
+      "keywordMethods": [
+        {
+          "name": "loginUser",
+          "parameters": [
+            {
+              "name": "userName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getErrorMessage",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnForgotPassword",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "userNameExist",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

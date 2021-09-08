@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "DB534D392D4C0FC66A4DBE8E3CDDD32C",
+  "keywordClasses": [
+    {
+      "name": "pages.supportPage",
+      "keywordMethods": [
+        {
+          "name": "helpPortalButtonExist",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
