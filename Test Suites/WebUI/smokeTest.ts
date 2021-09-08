@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC005 - MyInfo - Update firstName</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7c45f69a-375f-4f07-9b1f-9b2899ff5220</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC006 - support - page validation</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

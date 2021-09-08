@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "4046DF7E18ACAF25F32998E1F4BA5311",
+  "keywordClasses": [
+    {
+      "name": "uiCommon.common",
+      "keywordMethods": [
+        {
+          "name": "openApp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "closeApp",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

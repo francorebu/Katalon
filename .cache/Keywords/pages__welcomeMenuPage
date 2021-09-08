@@ -1,0 +1,23 @@
+{
+  "keywordFileContentHash": "02471CBE4CB458422F510F5BB418A5D6",
+  "keywordClasses": [
+    {
+      "name": "pages.welcomeMenuPage",
+      "keywordMethods": [
+        {
+          "name": "clickOnAbout",
+          "parameters": []
+        },
+        {
+          "name": "clickOnSupport",
+          "parameters": []
+        },
+        {
+          "name": "clickOnLogout",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

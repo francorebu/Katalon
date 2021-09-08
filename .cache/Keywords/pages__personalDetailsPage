@@ -1,0 +1,64 @@
+{
+  "keywordFileContentHash": "031EFEAE9F5C01DFC799575E03E7EA5D",
+  "keywordClasses": [
+    {
+      "name": "pages.personalDetailsPage",
+      "keywordMethods": [
+        {
+          "name": "changeFirstName",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "enterFirstName",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getFirstName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnEditButton",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnSaveButton",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

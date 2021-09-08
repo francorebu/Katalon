@@ -1,0 +1,66 @@
+{
+  "keywordFileContentHash": "3C87B9E17EFA4D55EAB65FD5CBB5BD8D",
+  "keywordClasses": [
+    {
+      "name": "pages.mainMenuPage",
+      "keywordMethods": [
+        {
+          "name": "clickOnAdmin",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnPim",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnLeave",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnTime",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnRecruitment",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnMyInfo",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnPerformance",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnDashboard",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnDirectory",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnMaintenance",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnBuzz",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

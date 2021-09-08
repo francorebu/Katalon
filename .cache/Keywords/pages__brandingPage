@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "00FF5E461092F05827CCFC6E9A228068",
+  "keywordClasses": [
+    {
+      "name": "pages.brandingPage",
+      "keywordMethods": [
+        {
+          "name": "getWelcomeName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnWelcome",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
