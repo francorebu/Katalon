@@ -33,7 +33,7 @@
       <guid>82977d68-9ad2-4aa7-9ec8-ba03db9c4307</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC004 - Logout</testCaseId>
+      <testCaseId>Test Cases/TC007 - Footer - Footer validation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>749d9ab3-4028-4a36-89bb-e023af15c1b7</guid>
@@ -45,6 +45,12 @@
       <guid>7c45f69a-375f-4f07-9b1f-9b2899ff5220</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC006 - support - page validation</testCaseId>
+      <testCaseId>Test Cases/TC006 - Support - Page validation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc3b311c-ed3b-4e34-83fe-6b0b17ec4115</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC007 - Footer - Footer validation</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
