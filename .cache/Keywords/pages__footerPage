@@ -1,0 +1,19 @@
+{
+  "keywordFileContentHash": "B36EC5333432A095BE69BA797610C3F2",
+  "keywordClasses": [
+    {
+      "name": "pages.footerPage",
+      "keywordMethods": [
+        {
+          "name": "scrollToFooter",
+          "parameters": []
+        },
+        {
+          "name": "footerExist",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

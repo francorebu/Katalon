@@ -21,28 +21,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class welcomeMenuPage {
-
-	private TestObject about   = findTestObject("Object Repository/welcomeMenuPage/about")
-	private TestObject support = findTestObject('Object Repository/welcomeMenuPage/support')
-	private TestObject logout  = findTestObject("Object Repository/welcomeMenuPage/logout")
-
-	public welcomeMenuPage() {
-		WebUI.waitForElementVisible(logout, GlobalVariable.shortTimeOut)
-	}
+public class footerPage {
+	private footer       = findTestObject('Object Repository/footerPage/footer')
 
 	@Keyword
-	def clickOnAbout() {
-		WebUI.click(about)
+	def scrollToFooter() {
+		WebUI.waitForPageLoad(GlobalVariable.shortTimeOut)
+		WebUI.scrollToElement(footer, GlobalVariable.shortTimeOut)
 	}
-
+	
 	@Keyword
-	def clickOnSupport() {
-		WebUI.click(support)
-	}
-
-	@Keyword
-	def clickOnLogout() {
-		WebUI.click(logout)
+	def footerExist() {
+		return WebUI.verifyElementVisible(footer)
 	}
 }
