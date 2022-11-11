@@ -1,21 +1,21 @@
 {
-  "keywordFileContentHash": "3B740B5E9DA0FE6103052B8E406E8402",
+  "keywordFileContentHash": "4E0BAEDB542451579B8B08F60DE72DC6",
   "keywordClasses": [
     {
-      "name": "pages.welcomeMenuPage",
+      "name": "pages.topBarPage",
       "keywordMethods": [
         {
-          "name": "clickOnAbout",
+          "name": "getProfilePicture",
           "parameters": [],
           "javadoc": ""
         },
         {
-          "name": "clickOnSupport",
+          "name": "clickOnProfilePicture",
           "parameters": [],
           "javadoc": ""
         },
         {
-          "name": "clickOnLogout",
+          "name": "validateProfilePicture",
           "parameters": [],
           "javadoc": ""
         }

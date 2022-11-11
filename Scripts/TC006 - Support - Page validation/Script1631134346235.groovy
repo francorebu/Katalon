@@ -19,8 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'uiCommon.common.openApp'()
 CustomKeywords.'pages.loginPage.loginUser'(GlobalVariable.userName, GlobalVariable.password)
-CustomKeywords.'pages.brandingPage.clickOnWelcome'()
-CustomKeywords.'pages.welcomeMenuPage.clickOnSupport'()
+CustomKeywords.'pages.topBarPage.clickOnProfilePicture'()
+CustomKeywords.'pages.userMenuPage.clickOnSupport'()
 def elementExist = CustomKeywords.'pages.supportPage.helpPortalButtonExist'()
 assert elementExist
 CustomKeywords.'uiCommon.common.closeApp'()

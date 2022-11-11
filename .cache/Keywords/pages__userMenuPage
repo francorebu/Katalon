@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "3B740B5E9DA0FE6103052B8E406E8402",
+  "keywordFileContentHash": "C6EE43051369280DC09C33803B17DF74",
   "keywordClasses": [
     {
-      "name": "pages.welcomeMenuPage",
+      "name": "pages.userMenuPage",
       "keywordMethods": [
         {
           "name": "clickOnAbout",

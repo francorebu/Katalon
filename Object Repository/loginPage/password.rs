@@ -4,19 +4,16 @@
    <name>password</name>
    <tag></tag>
    <elementGuidId>3950a259-3159-423e-9dbd-a9c0010925aa</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id='txtPassword']</value>
+         <value>//*[@name='password']</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

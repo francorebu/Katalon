@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>welcomeName</name>
+   <name>profilePicture</name>
    <tag></tag>
    <elementGuidId>d0688838-8077-4a23-9d4a-29310cc22e59</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[contains(@alt,'profile picture') and @class='oxd-userdropdown-img']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id='welcome']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

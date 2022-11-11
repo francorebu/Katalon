@@ -4,15 +4,13 @@
    <name>forgotPassword</name>
    <tag></tag>
    <elementGuidId>f8406990-bb07-4790-a6ff-3d58d465f6c1</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[contains(@class,'forgot-')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@href,'PasswordReset')]</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>BASIC</key>

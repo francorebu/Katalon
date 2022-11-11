@@ -83,6 +83,7 @@ class loginPage {
 	}
 
 	def clickOnLogin() {
+		WebUI.takeScreenshot()
 		WebUI.click(loginButton)
 	}
 }

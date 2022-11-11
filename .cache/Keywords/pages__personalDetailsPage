@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "031EFEAE9F5C01DFC799575E03E7EA5D",
+  "keywordFileContentHash": "779BFCCFB7DDBA4112C582361E41A4BC",
   "keywordClasses": [
     {
       "name": "pages.personalDetailsPage",
@@ -44,11 +44,6 @@
         },
         {
           "name": "getFirstName",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "clickOnEditButton",
           "parameters": [],
           "javadoc": ""
         },

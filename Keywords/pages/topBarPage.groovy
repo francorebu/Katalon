@@ -17,32 +17,31 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class welcomeMenuPage {
+public class topBarPage {
+	private profilePicture    = findTestObject('Object Repository/topBarPage/profilePicture')
 
-	private TestObject about   = findTestObject("Object Repository/welcomeMenuPage/about")
-	private TestObject support = findTestObject('Object Repository/welcomeMenuPage/support')
-	private TestObject logout  = findTestObject("Object Repository/welcomeMenuPage/logout")
-
-	public welcomeMenuPage() {
-		WebUI.waitForElementVisible(logout, GlobalVariable.shortTimeOut)
+	public topBarPage() {
+		WebUI.waitForElementVisible(profilePicture, GlobalVariable.shortTimeOut)
 	}
 
 	@Keyword
-	def clickOnAbout() {
-		WebUI.click(about)
+	def getProfilePicture() {
+		return WebUI.getText(profilePicture)
 	}
 
 	@Keyword
-	def clickOnSupport() {
-		WebUI.click(support)
+	def clickOnProfilePicture() {
+		WebUI.click(profilePicture)
 	}
 
 	@Keyword
-	def clickOnLogout() {
-		WebUI.click(logout)
+	def validateProfilePicture() {
+		WebUI.verifyElementVisible(profilePicture)
+		WebUI.takeScreenshot()
 	}
 }

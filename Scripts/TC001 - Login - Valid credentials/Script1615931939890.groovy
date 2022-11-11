@@ -20,7 +20,6 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'uiCommon.common.openApp'()
 CustomKeywords.'pages.loginPage.loginUser'(GlobalVariable.userName, GlobalVariable.password)
-def welcomeText = CustomKeywords.'pages.brandingPage.getWelcomeName'()
-assert welcomeText.contains('Welcome ')
+CustomKeywords.'pages.topBarPage.validateProfilePicture'()
 CustomKeywords.'uiCommon.common.closeApp'()										
 

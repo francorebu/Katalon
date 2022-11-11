@@ -17,50 +17,32 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
 
 import internal.GlobalVariable
 
-public class personalDetailsPage {
+public class userMenuPage {
 
-	private firstName  = findTestObject('Object Repository/personalDetailsPage/firstName')
-	private saveButton = findTestObject('Object Repository/personalDetailsPage/saveButton')
+	private TestObject about   = findTestObject("Object Repository/userMenuPage/about")
+	private TestObject support = findTestObject('Object Repository/userMenuPage/support')
+	private TestObject logout  = findTestObject("Object Repository/userMenuPage/logout")
 
-	public personalDetailsPage() {
-		WebUI.waitForPageLoad(GlobalVariable.shortTimeOut)
-		WebUI.waitForElementVisible(saveButton, GlobalVariable.shortTimeOut)
-	}
-	
-	@Keyword
-	def changeFirstName(String name) {
-		enterFirstName(name)
-		clickOnSaveButton()
+	public userMenuPage() {
+		WebUI.waitForElementVisible(logout, GlobalVariable.shortTimeOut)
 	}
 
 	@Keyword
-	def enterFirstName(String name) {
-		WebUI.delay(2)
-		String js = 'document.querySelector("[name=firstName]").value = "' + name + '";'
-		WebUI.executeJavaScript(js, null)
-		WebUI.delay(2)
-		
+	def clickOnAbout() {
+		WebUI.click(about)
 	}
 
 	@Keyword
-	def getFirstName() {
-		WebUI.waitForElementVisible(saveButton, GlobalVariable.shortTimeOut)
-		WebUI.getAttribute(firstName, "value")
+	def clickOnSupport() {
+		WebUI.click(support)
 	}
 
-
 	@Keyword
-	def clickOnSaveButton() {
-		WebUI.waitForPageLoad(GlobalVariable.shortTimeOut)
-		WebUI.waitForElementVisible(saveButton, GlobalVariable.shortTimeOut)
-		WebUI.click(saveButton)
-		WebUI.waitForPageLoad(GlobalVariable.shortTimeOut)
-		WebUI.waitForElementVisible(saveButton, GlobalVariable.shortTimeOut)
+	def clickOnLogout() {
+		WebUI.click(logout)
 	}
 }

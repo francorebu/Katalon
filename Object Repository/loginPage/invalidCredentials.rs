@@ -6,12 +6,11 @@
    <elementGuidId>6fad8d03-e046-481c-8ff7-5125da0ef8df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[contains(@class,'oxd-alert-content-text')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id='spanMessage']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
